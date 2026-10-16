@@ -19,6 +19,7 @@ public class EmployeeService {
     }*/
 
     public List<Employee> getAllEmployees() {
+        System.out.println("fetching all employees");
         return repository.findAll();
     }
 
